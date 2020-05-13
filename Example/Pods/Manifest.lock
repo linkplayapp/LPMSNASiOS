@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LPMSNASiOS (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LPMSNASiOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LPMSNASiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LPMSNASiOS: 83dc2d688abc5719495e4260dc9db710cdbbc60f
+
+PODFILE CHECKSUM: 07604828f5fe9777b9ce6ad163487cd9513e4c31
+
+COCOAPODS: 1.8.4

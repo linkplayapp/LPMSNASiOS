@@ -1,0 +1,6 @@
+framework module LPMSNASiOS {
+  umbrella header "LPMSNASiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

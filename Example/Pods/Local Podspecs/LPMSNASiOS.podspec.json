@@ -1,0 +1,22 @@
+{
+  "name": "LPMSNASiOS",
+  "version": "0.1.0",
+  "summary": "A short description of LPMSNASiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/675744097@qq.com/LPMSNASiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "675744097@qq.com": "yu.sun@linkplay.com"
+  },
+  "source": {
+    "git": "https://github.com/675744097@qq.com/LPMSNASiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LPMSNASiOS/Classes/**/*"
+}
