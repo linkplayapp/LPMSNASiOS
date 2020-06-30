@@ -1,9 +1,18 @@
 # LPMSNASiOS
 
-[![CI Status](https://img.shields.io/travis/675744097@qq.com/LPMSNASiOS.svg?style=flat)](https://travis-ci.org/675744097@qq.com/LPMSNASiOS)
-[![Version](https://img.shields.io/cocoapods/v/LPMSNASiOS.svg?style=flat)](https://cocoapods.org/pods/LPMSNASiOS)
-[![License](https://img.shields.io/cocoapods/l/LPMSNASiOS.svg?style=flat)](https://cocoapods.org/pods/LPMSNASiOS)
-[![Platform](https://img.shields.io/cocoapods/p/LPMSNASiOS.svg?style=flat)](https://cocoapods.org/pods/LPMSNASiOS)
+[English](README.md) | [中文](README_zh.md)
+
+LPMSNAS is the app side SDK for Linkplay NAS access solution；you can use it to quickly play music from NAS devices to your products.
+
+LPMSNAS mainly provides two functions：
+
+- Show music from NAS devices.
+
+- Play music from NAS device to your product.
+
+## Documentation
+
+You can find documentation [on the website](https://linkplayapp.github.io/linkplay_sdk_doc/en/).
 
 ## Example
 
@@ -17,13 +26,15 @@ LPMSNASiOS is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LPMSNASiOS'
+platform :ios, '10.0'
+
+target 'your_target_name' do
+
+   pod "LPMSNASiOS", :git => "https://github.com/linkplayapp/LPMSNASiOS.git"
+
+end
 ```
 
 ## Author
 
-675744097@qq.com, yu.sun@linkplay.com
-
-## License
-
-LPMSNASiOS is available under the MIT license. See the LICENSE file for more info.
+LinkPlay, ios_team@linkplay.com
