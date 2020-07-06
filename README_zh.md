@@ -54,7 +54,7 @@ _CocoaPods 建议更新至最新版本_
 #### Step 1: 下载 LPMSNASiOS
 - [下载 LPMSNASiOS](https://github.com/linkplayapp/LPMSNASiOS/archive/master.zip)
 #### Step 2: 导入SDK
-- 导入 LPMSNAS.framework
+- 导入 LPMSNAS.framework，依赖的SDK:[LPMusicKitiOS](https://github.com/linkplayapp/LPMusicKitiOS)、[LPMDPKitiOS](https://github.com/linkplayapp/LPMDPKitiOS)
 
 ## 作者
 

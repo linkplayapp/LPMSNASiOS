@@ -56,7 +56,7 @@ For use of CocoaPods, please refer to the [CocoaPods Guides](https://guides.coco
 
 #### Step 2: Import Framework
 
-- Import LPMSNAS.framework
+- Import LPMSNAS.framework, and its dependent SDK: [LPMusicKitiOS](https://github.com/linkplayapp/LPMusicKitiOS)、[LPMDPKitiOS](https://github.com/linkplayapp/LPMDPKitiOS)
 
 ## Author
 
